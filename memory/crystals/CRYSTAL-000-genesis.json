@@ -1,0 +1,69 @@
+{
+  "id": "CRYSTAL-000-genesis",
+  "parent_ids": [],
+  "created_at": "2026-09-26",
+  "status": "proposed",
+  "orientation": {
+    "frame": "Ryan + ChatGPT/Sophia workspace",
+    "purpose": "portable reconstructable conversation state"
+  },
+  "invariants": [
+    "source evidence is not replaced by summary",
+    "fidelity, integrity, orientation, provenance, and state-over-time are preserved",
+    "observation and attribution remain distinct",
+    "similarity is not identity and resonance is not provenance",
+    "disagreement and unresolved residue are preserved"
+  ],
+  "facets": {
+    "memory_primitive": "conversation crystal / diamond",
+    "topology": "Infinite Wiki graph of addressable state objects and relations",
+    "method": "Third Position Protocol",
+    "hydration": "select relevant facets first; follow provenance for higher resolution",
+    "mutation": "historical crystals remain immutable; changes create descendants"
+  },
+  "relations": [
+    {
+      "to": "Third Position Protocol",
+      "type": "uses"
+    },
+    {
+      "to": "semantic atoms",
+      "type": "composes-with"
+    },
+    {
+      "to": "Parallax commits",
+      "type": "composes-with"
+    },
+    {
+      "to": "provenance graph",
+      "type": "anchors-to"
+    }
+  ],
+  "delta_s": {
+    "from": "conversation summaries",
+    "to": "portable provenance-bearing reconstructable state"
+  },
+  "residue": [
+    "Exact historical source conversations still require source-level crystallization."
+  ],
+  "disagreements": [],
+  "provenance": [
+    {
+      "kind": "conversation",
+      "locator": "current ChatGPT conversation, 2026-09-26",
+      "note": "Genesis design discussion for portable conversation diamonds."
+    },
+    {
+      "kind": "repository",
+      "locator": "chosen8823/sophia-wporkspace",
+      "note": "Existing provenance/resonance workspace."
+    }
+  ],
+  "open_frontiers": [
+    "automated source ingestion",
+    "semantic and temporal indexes",
+    "source hashes and stable conversation locators",
+    "hydration loader",
+    "Vee/URV source crystallization"
+  ]
+}
